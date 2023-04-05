@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+        <h1>Diseño de formularios</h1>
+        <nav>
+            <a href="enlaces.html">Ir a enlaces</a>
+            <a href="tablas.html">Ir a tablas</a>
+            <a href="taller1.html">Ir a taller</a>
+            <a href="Listas.html">Ir a listas</a>
+        </nav>
+    </header>
+    <br>
+    <main>
+        <!--Este tema se realiza el proximo sabado-->
+
+    <form action="">
+
+         <!-- diferentes tipos de imput -->
+
+        <label for="lnombre">Nombre completo<label>
+            <input type="text" name="" id="lnombre"autocomplete="off" placeholder="Ingrese su nombre completo"> <br>
+
+            <label for="lmovil">Numero de movil</label>
+                <input type="tel" name="celular" id="lmovil"pattern="[0-9]{10}" maxlength="10" placeholder="##########" autocomplete="off" ><br>
+
+            <label for="lfecha">Fecha de nacimiento</label>
+                <input type="date" name="fech_nac" id="lfecha" value="1955-05-11"><br>
+
+            <label for="lcorreo">Correo electronico</label>
+            <input type="email" name="email" id="lcorreo" placeholder="correo@gmail.com"><br>
+
+            <label for="lcolor">Color favorito</label>
+                <input type="color" name="color_fav" id="lcolor" value="#2d2dc9"> <br>
+
+            <label for="lpeso">Peso en kg</label>
+                <input type="number" name="peso" id="lpeso" value="55"><br>
+
+            <label for="lcontra">Contraseña</label>
+             <input type="password" name="contraseña" id="lcontra" maxlength="12" minlength="12"><br><br>
+
+            <!-- controles de agrupacion y radio -->
+
+        <fieldset>
+                <legend>Estado civil</legend>
+                <label for="lsoltero">Soltero</label>
+                    <input type="radio" name="est_civil" id="lsoltero"><br>
+                <label for="lsoltero">Casado</label>
+                    <input type="radio" name="est_civil" id="lcasado"><br>
+                <label for="lsoltero">Separado</label>
+                    <input type="radio" name="est_civil" id="lseparado"><br>
+                <label for="lsoltero">Viudo</label>
+                    <input type="radio" name="est_civil" id="lviudo">
+                
+        </fieldset>
+
+            <!-- casillas de verificacion -->
+
+        <fieldset>
+
+            <legend>Temas de interes</legend>
+            <label for="ltema1">Tecnología</label>
+            <input type="checkbox" name="tema1" id="ltema1"><br>
+            <label for="ltema2">Deportes</label>
+                <input type="checkbox" name="tema2" id="ltema2"><br>
+
+            <label for="ltema3">Musica</label>
+                <input type="checkbox" name="tema3" id="ltema3"><br>
+
+            <label for="ltema4">Lenguajes de programación</label>
+                <input type="checkbox" name="tema4" id="ltema4"><br>
+
+             
+
+
+        </fieldset>
+
+        <!-- lista desplegables -->
+
+        <label for="lciudad">Ciudad de residencia</label>
+        <select name="icudad" id="lciudad">
+            <option value="Bello">Bello</option>
+            <option value="Medellin">Medellin</option>
+            <option value="Copacabana">Copacabana</option>
+            <option value="Barbosa">Barbosa</option>
+            <option value="Envigado">Envigado</option>
+        </select><br><br>
+        <!-- comentarios de linea -->
+        <label for="imensaje">Observaciones</label><br>
+            <textarea name="obser" id="lmensaje" cols="30" rows="10" spellcheck="on"></textarea>
+        
+
+
+        
+
+
+
+
+
+            
+
+            <!-- botones del dormulario -->
+
+            <input type="reset" value="Limpiar">
+            <input type="submit" value="Enviar">
+
+
+            
+
+
+
+    </form>
+
+
+
+    </main>
+
+    <footer>
+        <p>Carolina Luque Casallas-caroluque13@gmail.com</p>
+
+    </footer>
+
+    
+</body>
+</html>

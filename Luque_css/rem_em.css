@@ -1,0 +1,62 @@
+*{
+    box-sizing:border-box;
+}
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(211, 211, 246);
+    font-size: 25px;
+}
+
+body{
+    font-size: 12px;
+}
+
+.caja_pixel{
+    background-color: rgb(147, 147, 246);
+    width: 400px;
+    height: 300px;
+    margin: 16px auto;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.caja_pixel p{
+font-size: 16px;
+}
+
+.caja_Rem{
+    background-color: rgb(198, 159, 235);
+    width: 25rem;
+    height: 18.75rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 16px;
+}
+
+.caja_Rem p{
+    font-size: 1rem;
+}
+
+.caja_em{
+    background-color: rgb(71, 197, 238);
+    width: 25em;
+    height: 18.75em;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.caja_em p{
+    font-size: 1em;
+}
+
+.cuadro{
+    width: 30vw;
+    height: 20vh;
+    background-color: #86f7f760;
+}
+
+
+
+

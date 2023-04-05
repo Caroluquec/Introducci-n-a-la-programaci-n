@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: rgb(181, 211, 241);
+}
+
+.contenedor{
+    background-color: rgb(215, 187, 242);
+    width: 100vw;
+    height: 100vh;
+}
+
+.caja1{
+    background-color: rgb(171, 103, 235);
+    width: 31.25rem;
+    height: 18.75rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    position: relative;
+    top: 0rem;
+    right: 0rem;
+    
+   
+}
+
+.caja2{
+    background-color: rgb(44, 11, 74);
+    width: 15rem;
+    height: 9rem;
+    margin-bottom: 1rem;
+    position: absolute;
+    top: 8rem;
+    left: 1rem;
+}
+
+.caja3{
+    background-color: rgb(54, 54, 239);
+    width: 15rem;
+    height: 9rem;
+    margin-bottom: 1rem;
+    position: absolute;
+    top: 16rem;
+    left: 16rem;
+}
+
+/* estilos para imagen de universidades*/
+
+.fondo{
+    max-width: 62.5rem;
+    width: 90%;
+    margin: 2rem auto;
+    
+}
+
+.container{
+    background: url("Imagenes/universidades.png") no-repeat;
+    background-size: 100%;
+    padding-top: 65%;
+    position: relative;
+}
+
+.section{
+    width: 30%;
+    height: 18%;
+    border: 2px solid red;
+    border-radius: 1rem;
+    position: absolute;
+}
+
+.section:hover{
+    background-color: #cacaca80;
+}
+
+.section.area1{
+top: 5%;
+left: 6% ;
+}
+.section.area2{
+    top: 12% ;
+    right: 34% ;
+}
+.section.area3{
+    top: 8%;
+    right: 1%;
+}
+.section.area4{
+    top: 33%;
+    right:13% ; 
+}
+.section.area5{
+    top: 30% ;
+    right: 60% ;
+}
+.section.area6{
+    top: 55% ;
+    right: 6% ;
+}
+.section.area7{
+    top: 52% ;
+    right: 61% ;
+}
+.imagen img{
+    width: 10%;
+    left: 46%;
+    position: relative;
+
+}
+
+
+
+
+
+
+
+

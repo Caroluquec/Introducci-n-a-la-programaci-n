@@ -1,0 +1,83 @@
+*{
+    box-sizing:border-box;
+}
+
+html{
+    background-color: lightgrey;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header{
+    background-color: lightblue;
+    }
+
+footer{
+    background-color: lightseagreen;
+    height: 80px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 17px;
+    padding-top: 30px;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    text-align: justify;
+    color: beige;
+}
+
+body{
+    background-image: url(Fondo3.webp);
+}
+
+.galeria{
+    background-color: rgba(50, 154, 223,0.4);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.galeria img{
+    width: 320px;
+    border-radius: 20px;
+    border: double blue;
+
+}
+
+.centrar{
+    width: 45%;
+    margin: 10px auto;
+}
+
+.texto1{
+    color: black;
+    background-color: lightskyblue;
+    margin-left: 90px;
+    margin-right: 80px;
+    margin-top: 70px;
+    margin-bottom: 85px;
+    /* La margen tambien la puedo poner en 1 solo, se identifica en sentido de las manecilla del reloj, es decir
+    margin 70 80 85 90; */
+    padding: 10px 15px 20px 25px;
+
+}
+
+#diferente{
+    border-radius: 50%;
+    box-shadow: 11px 10px 30px 2px blue;
+}
+
+.centrar img{
+    box-shadow: 11px 10px 30px 2px cyan;
+}
+
+
+
+
